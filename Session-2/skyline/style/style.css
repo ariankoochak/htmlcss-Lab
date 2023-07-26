@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    background-color: #272727;
+    background-image: url(../assets/garage.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.downing{
+    margin-top: 100px;
+}
+
+.full-page{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+
+.black{
+    background-image: url(../assets/black.png);
+}
+
+.blue{
+    background-image: url(../assets/blue.png);
+}
+
+.green{
+    background-image: url(../assets/green.png);
+}
+
+.grey{
+    background-image: url(../assets/grey.png);
+}
+
+.midnight{
+    background-image: url(../assets/midnight.png);
+}
+.milky{
+    background-image: url(../assets/milky.png);
+}
+.red{
+    background-image: url(../assets/red.png);
+}
+.silver{
+    background-image: url(../assets/silver.png);
+}
+.nismo{
+    background-image: url(../assets/nismo.png);
+}
+
+
+.text-container{
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20vh;
+}
+
+.text{
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.order-container{
+    text-align: center;
+    height: 100px;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 35vh;
+}
+
+a{
+    border-radius: 20px;
+    padding: 15px 50px;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+
+.blacked{
+    color: white;
+    background-color: black;
+}
+
+.blued{
+    color: white;
+    background-color: darkblue;
+}
+
+.greened{
+    color: white;
+    background-color: #838D71;
+}
+
+.greyed{
+    color: white;
+    background-color: #272727;
+}
+
+.milkyed{
+    color: black;
+    background-color: #EBEAE2;
+}
+
+.reded{
+    color: white;
+    background: #c50000;
+}
+
+.silvered{
+    color: black;
+    background: silver;
+}
+
+.purpled{
+    color: white;
+    background-size: cover;
+    background-image: url(../assets/purple-color.co-sk61-dark-purple-blur-gradation-36-3840x2400-4k-wallpaper-115878357);
+}
+
+.nismoed{
+    outline: 2px solid darkred;
+    color: white;
+    background-color: #272727;
+}
