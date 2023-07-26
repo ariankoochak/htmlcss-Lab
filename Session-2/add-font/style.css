@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Falling Sky';
+    src: url('./fonts/FallingSky.woff2') format('woff2'),
+        url('./fonts/FallingSky.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: 'Falling Sky';
+}
+
+.profile-image{
+    width: 30%;
+    display: inline-block;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.profile-image img{
+    width: 300px;
+    display: block;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.bio{
+    width: 70%;
+    float: left;
+    height: 30vh;
+    margin-top: 5vh;
+}
+
+.contact{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 3vh;
+}
+
+*{
+    direction: rtl;
+}
+
+.btnHead{
+    text-align: center;
+}
+
+.toggle{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.icon{
+    filter: invert(1);
+}
