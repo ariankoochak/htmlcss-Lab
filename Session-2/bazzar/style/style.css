@@ -72,6 +72,7 @@ nav ul li:hover::after {
     border-radius: 30px;
     position: absolute;
     top: 37px;
+    transition: all 0.3s;
 }
 
 ul{
@@ -91,6 +92,7 @@ ul{
     padding: 5px 10px;
     border-radius: 20px;
     border: 1px solid grey;
+    background-color: aliceblue;
     transition: all 0.4s;
     width: 200px;
 }
@@ -112,6 +114,7 @@ ul{
     margin-right: 15px;
     font-weight: 300;
     font-size: 20px;
+    cursor: default;
 }
 
 .box .app-list{
@@ -140,14 +143,16 @@ ul{
 }
 
 .app-item h3{
-    margin: 0px 10px 0px;
+    margin: 0px 15px 0px;
     font-size: 15px;
+    cursor: default;
 }
 
 .app-item p{
-    margin: 0px 10px 0px;
+    margin: 0px 15px 0px;
     color: grey;
     font-size: 13px;
+    cursor: default;
 }
 
 section{
