@@ -92,6 +92,18 @@ nav ul li {
     overflow: hidden;
 }
 
+.top-icon-main {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    display: inline-block;
+    transform: rotate(45deg);
+    position: relative;
+    top: -4243px;
+    right: 368px;
+    overflow: hidden;
+}
+
 .top-icon-main img{
     object-fit: cover;
     width: 58px;
@@ -123,6 +135,27 @@ nav ul li {
     top: -150px;
     right: 150px;
 }
+
+.text-left {
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    background-color: darkred;
+    display: inline-block;
+    transform: rotate(45deg);
+    position: relative;
+    top: -4057px;
+    right: -187px
+}
+
+.main-text{
+    object-fit: cover;
+    transform: rotate(-45deg);
+    position: relative;
+    /* top: -150px; */
+    /* right: 150px; */
+}
+
 
 .chIndex{
     z-index: -1;
