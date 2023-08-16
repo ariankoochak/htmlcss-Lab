@@ -15,6 +15,7 @@ ul {
     list-style: none;
 }
 
+
 #header {
     width: 100%;
     overflow: hidden;
@@ -59,28 +60,40 @@ nav ul li {
 }
 
 .right-3 {
-    width: 700px;
-    height: 500px;
+    width: 797px;
+    height: 540px;
     background-color: white;
     display: inline-block;
     transform: rotate(45deg);
     position: relative;
-    top: -3218px;
-    right: -57px;
+    top: -3394px;
+    right: -111px;
 }
 
 .right-big-image{
-    width: 1500px;
-    height: 1500px;
-    background-image: url("../image/big-image.jpg");
+    width: 700px;
+    height: 700px;
+    background-color: aqua;
     background-repeat: none;
     display: inline-block;
     transform: rotate(45deg);
     position: relative;
-    top: 0px;
-    right: 0px;
+    top: -2863px;
+    right: 133px;
+    overflow: hidden;
+}
+
+.right-big-image img{
+    object-fit: cover;
+    width: 1000px;
+    transform: rotate(-45deg);
+    position: relative;
+    top: -150px;
+    right: 150px;
 }
 
 .chIndex{
     z-index: -1;
+    /* object-fit: cover; */
 }
+
