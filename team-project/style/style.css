@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    border: none;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+
+#header {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container .inline {
+    display: inline-block;
+}
+
+nav ul li {
+    margin: 0px 10px;
+    display: inline-block;
+    position: relative;
+}
