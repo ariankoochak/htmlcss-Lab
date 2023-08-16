@@ -1,8 +1,9 @@
-body{
+body {
     margin: 0px;
     border: none;
     background-color: black;
     min-height: 3000px;
+    overflow-x: hidden;
 }
 
 a {
@@ -14,16 +15,15 @@ ul {
     list-style: none;
 }
 
-
 #header {
     width: 100%;
-    background-color: #fff;
     overflow: hidden;
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
+        direction: rtl;
 }
 
 .container .inline {
@@ -36,17 +36,51 @@ nav ul li {
     position: relative;
 }
 
-.right-1{
-    width: 1000px;
-    height: 1000px;
+.right-1 {
+    width: 1500px;
+    height: 1500px;
+    background-color: grey;
+    display: inline-block;
+    transform: rotate(45deg);
+    position: relative;
+    top: -837px;
+    left: -963px;
+}
+
+.right-2 {
+    width: 1500px;
+    height: 1500px;
+    background-color: grey;
+    display: inline-block;
+    transform: rotate(45deg);
+    position: relative;
+    top: -2398px;
+    right: -922px;
+}
+
+.right-3 {
+    width: 700px;
+    height: 500px;
     background-color: white;
     display: inline-block;
     transform: rotate(45deg);
     position: relative;
-    top: -500px;
-    left: -500px;
+    top: -3218px;
+    right: -57px;
 }
 
-.right-2{
+.right-big-image{
+    width: 1500px;
+    height: 1500px;
+    background-image: url("../image/big-image.jpg");
+    background-repeat: none;
+    display: inline-block;
+    transform: rotate(45deg);
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
 
+.chIndex{
+    z-index: -1;
 }
