@@ -2,6 +2,7 @@ body{
     margin: 0px;
     border: none;
     background-color: black;
+    min-height: 3000px;
 }
 
 a {
@@ -15,7 +16,6 @@ ul {
 
 
 #header {
-    position: fixed;
     width: 100%;
     background-color: #fff;
     overflow: hidden;
@@ -34,4 +34,19 @@ nav ul li {
     margin: 0px 10px;
     display: inline-block;
     position: relative;
+}
+
+.right-1{
+    width: 1000px;
+    height: 1000px;
+    background-color: white;
+    display: inline-block;
+    transform: rotate(45deg);
+    position: relative;
+    top: -500px;
+    left: -500px;
+}
+
+.right-2{
+
 }
