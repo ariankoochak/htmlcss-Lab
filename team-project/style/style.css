@@ -131,11 +131,11 @@ nav ul li {
 
 .right-big-image img {
     object-fit: cover;
-    width: 1000px;
+    width: 1774px;
     transform: rotate(-45deg);
     position: relative;
-    top: -150px;
-    right: 150px;
+    top: -147px;
+    right: 547px;
 }
 
 .text-left {
