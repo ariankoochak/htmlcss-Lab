@@ -200,11 +200,11 @@ nav ul li {
 
 .small-image img {
     object-fit: cover;
-    width: 1154px;
+    width: 967px;
     transform: rotate(-45deg);
     position: relative;
-    top: 10px;
-    right: 464px;
+    top: -131px;
+    right: 223px;
 }
 
 .small-left-main-text {
@@ -305,39 +305,16 @@ nav ul li {
     overflow: hidden;
 }
 
-/* .second-page {
-    position:absolute;
-    top:0px;
-}
-.second-page img {
-    opacity: 0;
-    position:absolute;
-    -webkit-animation-name: fade;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 6s;
-    animation-name: fade;
-    animation-iteration-count: infinite;
-    animation-duration: 6s;
+@keyframes fadeinout {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
 }
 
-@-webkit-keyframes fade {
-    0% {opacity: 0;}
-    20% {opacity: 1;}
-    33% {opacity: 1;}
-    53% {opacity: 0;}
-    100% {opacity: 0;}
+.two{
+    animation: fadeinout 10s infinite;
+    top: -398px !important;
 }
-@keyframes fade {
-    0% {opacity: 0;}
-    20% {opacity: 1;}
-    33% {opacity: 1;}
-    53% {opacity: 0;}
-    100% {opacity: 0;}
-}
-
-#f2 {
-    animation-delay: 3s;
-} */
 
 .left-image {
     overflow: hidden;
