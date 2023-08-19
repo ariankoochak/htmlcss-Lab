@@ -279,7 +279,7 @@ nav ul li {
 }
 
 .second-page {
-    background-color: aqua;
+    background-color: black;
     width: 2000px;
     height: 2000px;
     position: relative;
@@ -290,6 +290,22 @@ nav ul li {
     overflow: hidden;
 }
 
+
+@keyframes fadeinout
+{
+  0%{
+    opacity:0;
+  }
+  50%
+  {
+    opacity:1;
+  }
+  100%
+  {
+    opacity:0;
+  }
+}
+
 .second-page img {
     object-fit: cover;
     width: 110%;
@@ -297,6 +313,11 @@ nav ul li {
     position: relative;
     top: 945px;
     right: 663px;
+}
+
+.two{
+    animation: fadeinout 10s infinite;
+    top: -398px !important;
 }
 
 .second-page-container {

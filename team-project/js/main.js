@@ -31,3 +31,15 @@ window.addEventListener('mousemove',(e)=>{
         obj4.style.transform = `translate(${-mouseX}px,${-mouseY}px) rotate(45deg)`;
         obj5.style.transform = `translate(${-mouseX}px,${mouseY}px) rotate(45deg)`;
 })
+
+// const bigPic = document.getElementsByClassName("two")[0];
+// let flag = true;
+// setInterval(()=>{
+//     if(flag){
+//         bigPic.classList.remove('sec-img');
+//     }
+//     else{
+//         bigPic.classList.add("sec-img");
+//     }
+//     flag = !flag;
+// },5000)
