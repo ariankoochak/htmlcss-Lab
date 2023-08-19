@@ -200,11 +200,11 @@ nav ul li {
 
 .small-image img {
     object-fit: cover;
-    width: 1000px;
+    width: 1154px;
     transform: rotate(-45deg);
     position: relative;
-    top: -287px;
-    right: 150px;
+    top: 10px;
+    right: 464px;
 }
 
 .small-left-main-text {
