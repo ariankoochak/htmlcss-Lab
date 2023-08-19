@@ -305,6 +305,40 @@ nav ul li {
     overflow: hidden;
 }
 
+/* .second-page {
+    position:absolute;
+    top:0px;
+}
+.second-page img {
+    opacity: 0;
+    position:absolute;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+#f2 {
+    animation-delay: 3s;
+} */
+
 .left-image {
     overflow: hidden;
     width: 300px;
