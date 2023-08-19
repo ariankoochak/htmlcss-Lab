@@ -1,7 +1,7 @@
 window.addEventListener("scroll", () =>{
 
-    if (window.scrollY >= 4355) {
-        window.scrollTo(0,4345)
+    if (window.scrollY >= 4550) {
+        window.scrollTo(0,4540)
     }
 });
 
