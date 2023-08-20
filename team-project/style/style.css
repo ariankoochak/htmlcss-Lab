@@ -98,7 +98,6 @@ nav ul li {
 .right-big-image {
     width: 700px;
     height: 700px;
-    background-color: aqua;
     background-repeat: none;
     top: -2863px;
     right: 133px;
@@ -155,7 +154,6 @@ nav ul li {
 .small-image {
     width: 450px;
     height: 450px;
-    background-color: aqua;
     background-repeat: none;
     top: -3611px;
     right: -219px;
