@@ -39,13 +39,16 @@ nav ul li {
     position: relative;
 }
 
+.abstract{
+    display: inline-block;
+    transform: rotate(45deg);
+    position: relative;
+}
+
 .left-top {
     width: 1500px;
     height: 1500px;
     background-color: grey;
-    display: inline-block;
-    transform: rotate(45deg);
-    position: relative;
     top: -837px;
     left: -963px;
 }
@@ -54,9 +57,6 @@ nav ul li {
     width: 1500px;
     height: 1500px;
     background-color: grey;
-    display: inline-block;
-    transform: rotate(45deg);
-    position: relative;
     top: -2398px;
     right: -922px;
 }
@@ -65,9 +65,6 @@ nav ul li {
     width: 797px;
     height: 540px;
     background-color: white;
-    display: inline-block;
-    transform: rotate(45deg);
-    position: relative;
     top: -3394px;
     right: -111px;
 }
@@ -75,9 +72,6 @@ nav ul li {
     width: 797px;
     height: 540px;
     background-color: black;
-    display: inline-block;
-    transform: rotate(45deg);
-    position: relative;
     top: -4422px;
     right: -187px;
 }
@@ -86,21 +80,6 @@ nav ul li {
     width: 300px;
     height: 300px;
     background-color: red;
-    display: inline-block;
-    transform: rotate(45deg);
-    position: relative;
-    top: -4243px;
-    right: 368px;
-    overflow: hidden;
-}
-
-.top-icon-main {
-    width: 300px;
-    height: 300px;
-    background-color: red;
-    display: inline-block;
-    transform: rotate(45deg);
-    position: relative;
     top: -4243px;
     right: 368px;
     overflow: hidden;
@@ -121,9 +100,6 @@ nav ul li {
     height: 700px;
     background-color: aqua;
     background-repeat: none;
-    display: inline-block;
-    transform: rotate(45deg);
-    position: relative;
     top: -2863px;
     right: 133px;
     overflow: hidden;
@@ -143,9 +119,6 @@ nav ul li {
     width: 500px;
     height: 500px;
     background-color: darkred;
-    display: inline-block;
-    transform: rotate(45deg);
-    position: relative;
     top: -4057px;
     right: -187px;
 }
@@ -165,9 +138,6 @@ nav ul li {
     width: 50px;
     height: 50px;
     background-color: red;
-    display: inline-block;
-    transform: rotate(45deg);
-    position: relative;
     top: -4453px;
     right: -151px;
     box-shadow: 10px 7px 14px -7px rgba(0,0,0,0.75);
@@ -178,9 +148,6 @@ nav ul li {
     width: 400px;
     height: 400px;
     background-color: darkgrey;
-    display: inline-block;
-    transform: rotate(45deg);
-    position: relative;
     top: -3678px;
     right: 568px;
 }
@@ -190,9 +157,6 @@ nav ul li {
     height: 450px;
     background-color: aqua;
     background-repeat: none;
-    display: inline-block;
-    transform: rotate(45deg);
-    position: relative;
     top: -3611px;
     right: -219px;
     overflow: hidden;
@@ -271,8 +235,8 @@ nav ul li {
     text-align: center;
 }
 
-.btn-container a {
-    background: red;
+.link-style {
+    background-color: red;
     color: white;
     padding: 5px 10px;
     border-radius: 100px;
@@ -321,9 +285,6 @@ nav ul li {
     width: 300px;
     height: 300px;
     background-color: darkred;
-    display: inline-block;
-    transform: rotate(45deg);
-    position: relative;
     top: -1133px;
     right: -320px;
 }
@@ -342,9 +303,6 @@ nav ul li {
     width: 300px;
     height: 300px;
     background-color: darkred;
-    display: inline-block;
-    transform: rotate(45deg);
-    position: relative;
     top: -1133px;
     right: -574px;
 }
@@ -363,9 +321,6 @@ nav ul li {
     width: 300px;
     height: 300px;
     background-color: white;
-    display: inline-block;
-    transform: rotate(45deg);
-    position: relative;
     top: -1210px;
     right: -5px;
 }
@@ -378,13 +333,6 @@ nav ul li {
     text-align: center;
 }
 
-.center-text-main a {
-    background-color: red;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 30px;
-}
-
 .center-text-main h2 {
     color: red;
 }
@@ -394,9 +342,6 @@ nav ul li {
     height: 130px;
     /* background-color: white; */
     background: rgba(0, 0, 0, 0.4);
-    display: inline-block;
-    transform: rotate(45deg);
-    position: relative;
     top: -1511px;
     right: 397px;
 }
@@ -435,12 +380,8 @@ nav ul li {
 .number-title {
     width: 130px;
     height: 130px;
-    /* background-color: white; */
     background: rgba(0, 0, 0, 0.4);
-    display: inline-block;
-    transform: rotate(45deg);
     margin-bottom: -77px;
-    position: relative;
     text-align: center;
 }
 
@@ -540,13 +481,6 @@ nav ul li {
     display: inline-block;
     position: relative;
     top: -20px;
-}
-
-.last-box a {
-    background-color: red;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 30px;
 }
 
 .righting {
