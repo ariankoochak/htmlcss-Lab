@@ -40,7 +40,12 @@ nav ul li{
 }
 
 nav ul li a {
-    color: white;
+    color: gray;
+    transition: all 0.5s;
+}
+nav ul li:hover a{
+    transition: all 0.5s;
+    color: white !important;
 }
 
 .input-style{
@@ -74,10 +79,11 @@ section{
   100% { opacity: 1; }
 }
 
-.first-div img{
-    width: 36%;
+.first-div .image-holder{
+    width: 40%;
+    margin: 0 auto;
     position: relative;
-    top: 7.5vh;
+    bottom: -13vh;
     display: inline-block;
     object-fit: cover;
     animation: fadeIn 2s
