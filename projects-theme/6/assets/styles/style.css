@@ -78,6 +78,7 @@ section {
     height: 100vh !important;
     background-image: url("../images/main-section-wallpaper.png");
     background-size: cover;
+    background-position: center;
 }
 
 .main-section .title {
