@@ -1,0 +1,237 @@
+@font-face {
+    font-family: "proDisplay-semiBold";
+    src: url("../fonts/SFProDisplay-Semibold.woff2") format("woff2"),
+        url("../fonts/SFProDisplay-Semibold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "proDisplay-regular";
+    src: url("../fonts/SFProDisplay-Regular.woff2") format("woff2"),
+        url("../fonts/SFProDisplay-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "proDisplay-semiBold";
+    margin: 0;
+}
+p {
+    margin: 0;
+    font-family: "proDisplay-regular";
+}
+
+header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    direction: rtl;
+}
+
+nav ul li {
+    font-family: "proDisplay-regular";
+    color: white;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+section {
+    width: 100%;
+    height: 70vh;
+}
+
+.main-section {
+    height: 100vh !important;
+    background-image: url("../images/main-section-wallpaper.png");
+    background-size: cover;
+}
+
+.main-section .title {
+    font-family: "proDisplay-semiBold";
+    color: white;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 20vh;
+    font-size: 70px;
+}
+
+.second-section {
+    background-color: #403e3d;
+    position: relative;
+}
+
+.second-section .text-container {
+    width: 100%;
+    display: inline-block;
+    margin-top: 18vh;
+    text-align: center;
+}
+
+.second-section .text-container .texts {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.second-section .text-container .text {
+    color: white;
+    text-align: justify;
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+}
+
+.third-section {
+    background-color: black;
+    background-image: url("../images/second-section-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.third-section .text-container , .fourth-section .downer-content .container{
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20vh;
+}
+
+.third-section .text-container h3 , .fourth-section .downer-content h3{
+    font-size: 50px;
+}
+.third-section .text-container p ,.fourth-section .downer-content p{
+    margin: 20px;
+    font-size: 30px;
+}
+
+.button {
+    font-family: "proDisplay-regular";
+    border-radius: 50px;
+    font-size: 30px;
+    color: black;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+
+.fourth-section {
+    background-color: red;
+    background-image: url("../images/fourth-section-wallpaper.jpg");
+    background-size: cover;
+    height: 130vh !important;
+    overflow: hidden;
+}
+.fourth-section .container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.fourth-section .upper-content .image {
+    width: 40%;
+    display: inline-block;
+    margin-top: 15vh;
+}
+
+.fourth-section .upper-content .text {
+    color: white;
+    float: right;
+    width: 50%;
+    margin-top: 24vh;
+    display: inline-block;
+    padding: 40px;
+}
+
+.upper-content {
+    background-color: black;
+    height: 45%;
+    width: 100%;
+    margin-bottom: 10%;
+}
+.downer-content {
+    height: 45%;
+    width: 100%;
+}
+
+.fifth-section {
+    background-color: blue;
+    background-image: url("../images/fifth-section-wallpaper.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 30vh !important;
+}
+
+.grey-circle {
+    background-color: #403e3d;
+    width: 100px;
+    height: 100px;
+    border-radius: 47%;
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 50px);
+    margin-bottom: -40px;
+    z-index: 1;
+}
+
+.blue-color-low-opacity {
+    background: rgba(67, 146, 155, 0.5);
+}
+
+.search-box {
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 5px 10px;
+    direction: ltr;
+}
+
+.full {
+    width: 100%;
+    height: 100%;
+}
+
+header .container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.fa-apple{
+    color: #ffffff;
+    font-size: 30px;
+}
+nav{
+    float: right;
+    display: inline-block;
+}
+.header-logo{
+    margin-top: 20px;
+    float: left;
+    display: inline-block;
+}
